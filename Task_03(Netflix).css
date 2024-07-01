@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background-color: #111;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+header ul li {
+    margin-right: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #e50914;
+}
+
+.hero {
+    background-image: url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #ff3b2f;
+}
+
+.content {
+    padding: 4rem 0;
+}
+
+.content h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.item p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
